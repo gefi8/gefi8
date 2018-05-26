@@ -10,6 +10,30 @@
   flex: 2;
 }
 
+#main.main-container .side-menu nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#main.main-container .side-menu nav ul li {
+  padding: 5px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#main.main-container .side-menu nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+#main.main-container .side-menu nav ul li a.active {
+  font-weight: bold;
+}
+
+#main.main-container .side-menu nav ul li a.deactivated {
+  font-weight: normal;
+}
+
 #main.main-container .main-content {
   margin-left: 232px;
   flex: 8;
@@ -17,6 +41,10 @@
 
 #main.main-container .main-content .main-header h1 {
   margin-top: 0;
+}
+
+#main.main-container .main-content .section-content {
+  padding: 20px 0 25px;
 }
 
 #main.main-container .side-menu .logo-img {
