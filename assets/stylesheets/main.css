@@ -1,6 +1,7 @@
 #main.main-container {
   width: 1160px;
   margin: 40px auto;
+  padding-left: 2%;
   display: flex;
   flex-direction: row;
 }
@@ -8,6 +9,10 @@
 #main.main-container .side-menu {
   position: fixed;
   flex: 2;
+}
+
+#main.main-container .menu-mobile {
+  display: none;
 }
 
 #main.main-container .side-menu nav ul {
@@ -35,7 +40,7 @@
 }
 
 #main.main-container .main-content {
-  margin-left: 232px;
+  margin-left: 15%;
   flex: 8;
 }
 
@@ -49,4 +54,43 @@
 
 #main.main-container .side-menu .logo-img {
   width: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  #main.main-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+  #main.main-container {
+    padding-left: 0;
+  }
+  #main.main-container .side-menu {
+    display: none;
+  }
+  #main.main-container .menu-mobile {
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #main.main-container .menu-mobile img {
+    padding: 5px;
+    float: left;
+    width: 45px;
+  }
+  #main.main-container .main-content {
+    margin: 50px 2%;
+  }
+  #main.main-container .main-content .section-content {
+    padding: 60px 0 25px;
+  }
+  #main.main-container .main-content .section-content img {
+    width: 100%;
+  }
 }
