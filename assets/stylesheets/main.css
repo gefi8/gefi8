@@ -52,6 +52,10 @@
   padding: 20px 0 25px;
 }
 
+#main.main-container .main-content .section-content p {
+  text-align: justify;
+}
+
 #main.main-container .side-menu .logo-img {
   width: 100px;
 }
