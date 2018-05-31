@@ -16,5 +16,4 @@ window.onscroll = function onScroll(event) {
 function hideMenu() {
   let menuCheckbox = document.querySelector('.menu-mobile .menu-btn');
   menuCheckbox.click();
-  console.log(menuCheckbox);
 }
