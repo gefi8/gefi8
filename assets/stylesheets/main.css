@@ -110,4 +110,21 @@ body {
   #main.main-container .main-content .section-content img {
     width: 100%;
   }
+  #main.main-container .main-content .section-content .palestrantes ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #main.main-container .main-content .section-content .palestrantes ul li.palestrante-item {
+    margin: 20px auto;
+    max-width: 90%;
+  }
+  #main.main-container .main-content .section-content .palestrantes ul li.palestrante-item .palestrante-img {
+    text-align: center;
+  }
+  #main.main-container .main-content .section-content .palestrantes ul li.palestrante-item .palestrante-img img {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+  }
 }
