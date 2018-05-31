@@ -44,6 +44,7 @@ body {
 }
 
 #main.main-container .main-content {
+  width: 80%;
   margin-left: 15%;
   flex: 8;
 }
@@ -57,7 +58,15 @@ body {
 }
 
 #main.main-container .main-content .section-content p {
+  font-size: 21px;
+  letter-spacing: -.003em;
+  line-height: 1.5;
   text-align: justify;
+}
+
+#main.main-container .main-content .section-content h2 {
+  font-size: 28px;
+  text-transform: uppercase;
 }
 
 #main.main-container .side-menu .logo-img {
