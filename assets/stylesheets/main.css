@@ -73,6 +73,47 @@ body {
   width: 100px;
 }
 
+#main.main-container .main-content .section-content .palestrantes ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+#main.main-container .main-content .section-content .palestrantes ul li.palestrante-item {
+  margin: 20px;
+  max-width: 320px;
+}
+
+#main.main-container .main-content .section-content .palestrantes ul li.palestrante-item .palestrante-img {
+  text-align: center;
+}
+
+#main.main-container .main-content .section-content .palestrantes ul li.palestrante-item .palestrante-img img {
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #177598;
+  -webkit-box-shadow: -6px 5px 15px -2px rgba(0, 0, 0, .25);
+  box-shadow: -6px 5px 15px -2px rgba(0, 0, 0, .25);
+}
+
+#main.main-container .main-content .section-content .palestrantes ul li.palestrante-item .palestrante-bio h3 {
+  font-size: 25px;
+}
+
 @media screen and (max-width: 1024px) {
   #main.main-container {
     width: 100%;
@@ -109,22 +150,5 @@ body {
   }
   #main.main-container .main-content .section-content img {
     width: 100%;
-  }
-  #main.main-container .main-content .section-content .palestrantes ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  #main.main-container .main-content .section-content .palestrantes ul li.palestrante-item {
-    margin: 20px auto;
-    max-width: 90%;
-  }
-  #main.main-container .main-content .section-content .palestrantes ul li.palestrante-item .palestrante-img {
-    text-align: center;
-  }
-  #main.main-container .main-content .section-content .palestrantes ul li.palestrante-item .palestrante-img img {
-    text-align: center;
-    width: 150px;
-    height: 150px;
   }
 }
