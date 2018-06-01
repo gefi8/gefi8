@@ -17,3 +17,9 @@ function hideMenu() {
   let menuCheckbox = document.querySelector('.menu-mobile .menu-btn');
   menuCheckbox.click();
 }
+
+// function toggleContent(element) {
+//   element.classList.toggle('toggle-aberto');
+//   element.querySelector('.arrow').classList.toggle('arrow-down');
+//   element.querySelector('.arrow').classList.toggle('arrow-up');
+// }
