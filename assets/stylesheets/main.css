@@ -239,6 +239,11 @@ body {
 
 #main.main-container .main-content .section-content .palestrantes ul li.palestrante-item .palestrante-bio h3 {
   font-size: 25px;
+  margin-bottom: 0;
+}
+
+#main.main-container .main-content .section-content .palestrantes ul li.palestrante-item .palestrante-bio p {
+  margin-top: 5px;
 }
 
 #main.main-container .main-content .section-content .programacao-dia h3 {
@@ -315,6 +320,17 @@ body {
   transition: max-height ease 1s;
 } */
 
+#main.main-container .main-content .section-content .organizacao .organizacao-wrapper {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+
+#main.main-container .main-content .section-content .organizacao .organizacao-wrapper p {
+  margin: 1px 0;
+  font-size: 1rem;
+}
+
 @media screen and (max-width: 1024px) {
   #main.main-container {
     width: 100%;
@@ -351,5 +367,10 @@ body {
   }
   #main.main-container .main-content .section-content img {
     width: 100%;
+  }
+  #main.main-container .main-content .section-content .organizacao .organizacao-wrapper {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
   }
 }
