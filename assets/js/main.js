@@ -6,9 +6,9 @@ window.onscroll = function onScroll(event) {
     if (element.getBoundingClientRect().y <= 10 &&
       element.getBoundingClientRect().height + windowHeight >= windowHeight &&
       element.getBoundingClientRect().y * (-1) <= element.getBoundingClientRect().height - 10) {
-      document.querySelector(`div.side-menu nav ul li a[href="#${sectionId}"]`).setAttribute('class', 'active');
+      document.querySelector(`div.side-menu nav a[href="#${sectionId}"]`).setAttribute('class', 'active');
     } else {
-      document.querySelector(`div.side-menu nav ul li a[href="#${sectionId}"]`).setAttribute('class', 'deactivated');
+      document.querySelector(`div.side-menu nav a[href="#${sectionId}"]`).setAttribute('class', 'deactivated');
     }
   });
 }
