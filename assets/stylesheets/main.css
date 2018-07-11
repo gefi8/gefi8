@@ -3,8 +3,6 @@ body {
   margin: 0;
 }
 
-#main.main-container {}
-
 #main.main-container .side-menu {
   position: relative;
   background: #177598cf;
@@ -47,8 +45,6 @@ body {
 #main.main-container .side-menu nav a.deactivated {
   font-weight: normal;
 }
-
-#main.main-container .main-content {}
 
 #main.main-container .main-content .main-header {
   background: linear-gradient(#177598, #91c6d50d);
@@ -127,6 +123,9 @@ body {
   margin: auto;
 }
 
+#organizacao {
+  background: linear-gradient(#177598, #91c6d50d);
+}
 
 #main.main-container .main-content .section-content p {
   font-size: 1.125rem;
@@ -144,8 +143,8 @@ body {
   width: 60px;
 }
 
-#main.main-container .main-content #section-1,
-#main.main-container .main-content #section-2 {
+#main.main-container .main-content #sobre,
+#main.main-container .main-content #conferencistas {
   background: #91c6d524;
 }
 
