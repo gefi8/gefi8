@@ -104,6 +104,10 @@ body {
   margin: auto;
 }
 
+#main.main-container .main-content .section-content .section-wrapper .section-subtitle {
+  padding-top: 20px;
+}
+
 #main.main-container .main-content .section-content p {
   font-size: 1.125rem;
   letter-spacing: -.003em;
@@ -378,4 +382,23 @@ body {
     -moz-column-count: 1;
     column-count: 1;
   }
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  width: 50%;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
