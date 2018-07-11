@@ -7,11 +7,11 @@ body {
 
 #main.main-container .side-menu {
   position: relative;
-  background: #0b89b7ba;
+  background: #177598cf;
 }
 
 #main.main-container .side-menu .side-menu-content {
-  padding: 40px 1.25rem 10px;
+  padding: 5px 1.25rem;
   max-width: 61.25rem;
   margin: auto;
   display: flex;
@@ -98,6 +98,7 @@ body {
   padding: 20px 0 25px;
 }
 
+.footer .footer-wrapper,
 #main.main-container .main-content .section-content .section-wrapper {
   padding: 0 1.25rem;
   max-width: 61.25rem;
@@ -107,6 +108,25 @@ body {
 #main.main-container .main-content .section-content .section-wrapper .section-subtitle {
   padding-top: 20px;
 }
+
+#main.main-container .main-content .section-content .section-wrapper .support {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-self: center;
+}
+
+#main.main-container .main-content .section-content .section-wrapper .support .support-item {
+  width: 200px;
+  height: 200px;
+  display: inherit;
+}
+
+#main.main-container .main-content .section-content .section-wrapper .support .support-item img {
+  width: 100%;
+  margin: auto;
+}
+
 
 #main.main-container .main-content .section-content p {
   font-size: 1.125rem;
@@ -401,4 +421,47 @@ th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+.footer {
+  background: linear-gradient(#177598, #91c6d50d);
+  background-image: url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0;
+  color: #eee;
+}
+
+.footer .footer-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.footer .footer-wrapper p,
+.footer .footer-wrapper h3 {
+  color: #030303;
+  background-color: #ffffff3d;
+  width: max-content;
+  font-weight: normal;
+}
+
+.footer .footer-wrapper h3 a {
+  color: #030303;
+  text-transform: none;
+}
+
+.footer .footer-wrapper .social-medias img {
+  fill: #eee;
+  width: 50px;
+}
+
+.made-with-love {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.made-with-love .heart {
+  color: #ff3c58;
 }
