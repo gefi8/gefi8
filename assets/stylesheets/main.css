@@ -7,14 +7,13 @@ body {
 
 #main.main-container .side-menu {
   position: relative;
-  background: #177598;
+  background: #0b89b7ba;
 }
 
 #main.main-container .side-menu .side-menu-content {
-  padding: 0 1.25rem;
+  padding: 40px 1.25rem 10px;
   max-width: 61.25rem;
   margin: auto;
-  padding-top: 60px;
   display: flex;
 }
 
@@ -53,6 +52,10 @@ body {
 
 #main.main-container .main-content .main-header {
   background: linear-gradient(#177598, #91c6d50d);
+  background-image: url(../images/cover-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0;
 }
 
 #main.main-container .main-content .main-header .main-header-content {
@@ -63,6 +66,7 @@ body {
   display: flex;
   flex-flow: column;
   text-align: center;
+  color: #e7e7e7;
 }
 
 #main.main-container .main-content .main-header .main-header-content .data-local {
@@ -113,9 +117,10 @@ body {
 }
 
 #main.main-container .side-menu .logo-img {
-  width: 100px;
+  width: 60px;
 }
 
+#main.main-container .main-content #section-1,
 #main.main-container .main-content #section-2 {
   background: #91c6d524;
 }
