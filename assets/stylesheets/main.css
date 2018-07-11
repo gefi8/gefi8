@@ -405,6 +405,10 @@ body {
 
 }
 
+.table-responsive {
+  overflow-x: auto;
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -441,14 +445,13 @@ tr:nth-child(even) {
 
 .footer .footer-wrapper p,
 .footer .footer-wrapper h3 {
-  color: #030303;
-  background-color: #ffffff3d;
+  color: #fff;
   width: max-content;
   font-weight: normal;
 }
 
 .footer .footer-wrapper h3 a {
-  color: #030303;
+  color: #fff;
   text-transform: none;
 }
 
