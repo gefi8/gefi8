@@ -309,6 +309,7 @@ body {
 
 #main.main-container .main-content .section-content .palestrantes ul li.palestrante-item .palestrante-bio p {
   margin-top: 5px;
+  margin-bottom: 0;
 }
 
 #main.main-container .main-content .section-content .programacao-dia h3 {

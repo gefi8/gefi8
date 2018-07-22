@@ -27,8 +27,6 @@
 
 .read-more-state:checked ~ .read-more-trigger {
   content: 'X';
-  position: relative;
-  left: 90%;
 }
 
 .read-more-trigger {
@@ -41,7 +39,6 @@
   line-height: 2;
   border: 1px solid #ddd;
   border-radius: .25em;
-  position: relative;
-  left: 73%;
-  bottom: 40px;
+  float: right;
+  margin-bottom: 15px
 }
