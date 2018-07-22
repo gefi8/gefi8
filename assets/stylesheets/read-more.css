@@ -25,16 +25,23 @@
   content: 'X';
 }
 
+.read-more-state:checked ~ .read-more-trigger {
+  content: 'X';
+  position: relative;
+  left: 90%;
+}
+
 .read-more-trigger {
+  background-color: #177698ce;
   cursor: pointer;
   display: inline-block;
   padding: 0 .5em;
-  color: #666;
+  color: #f3f3f3;
   font-size: .9em;
   line-height: 2;
   border: 1px solid #ddd;
   border-radius: .25em;
   position: relative;
-  left: 230px;
-  bottom: 25px;
+  left: 73%;
+  bottom: 40px;
 }
