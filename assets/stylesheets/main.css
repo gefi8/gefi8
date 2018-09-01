@@ -131,6 +131,10 @@ body {
   padding: 20px 0 25px;
 }
 
+#main.main-container .main-content .section-content#inscricao h2 {
+  text-align: center;
+}
+
 .footer .footer-wrapper,
 #main.main-container .main-content .section-content .section-wrapper {
   padding: 0 1.25rem;
