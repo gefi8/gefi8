@@ -1,32 +1,25 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import logoGefi from '../images/logo-temp.png'
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+  <header className="side-menu">
+    <div className="side-menu-content">
+      <Link to="/">
+        <img
+          src={logoGefi}
+          className="logo-img"
+          alt="Logo GEFI - Link para Home"
+        />
+      </Link>
+      <nav>
+        <Link to="#sobre">Sobre</Link>
+        <Link to="#inscricao">Inscrições</Link>
+        <Link to="#conferencistas">Conferencistas</Link>
+        <Link to="#programacao">Programação</Link>
+        <Link to="#organizacao">Organização</Link>
+      </nav>
     </div>
   </header>
 )

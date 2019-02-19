@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `GEFI | UnB | 8º Encontro com Imagens e Filosofia`,
+    description: `8º Encontro com Imagens e Filosofia Linguagens e Educação como Acontecimento e 1º Colóquio Universidade e Escola sem Muros | 26, 27 e 28 de setembro | Brasília - DF | Universidade de Brasília - UnB`,
+    author: `@alvarofernandoms e @nicolepacheco`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

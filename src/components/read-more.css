@@ -1,0 +1,44 @@
+/* Pure CSS read more toggle by Kasper Mikiewicz*/
+/* https://codepen.io/Idered/pen/AeBgF */
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Leia Mais';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'X';
+}
+
+.read-more-state:checked ~ .read-more-trigger {
+  content: 'X';
+}
+
+.read-more-trigger {
+  background-color: #177698ce;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #f3f3f3;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+  float: right;
+  margin-bottom: 15px
+}
