@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import logoGefi from '../images/logo-temp.png'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header className="side-menu">
     <div className="side-menu-content">
       <Link to="/">
